@@ -1,13 +1,11 @@
 <?php
-  require_once 'index.html';
-
   $one = rand(0, 100);
   $two = rand(0, 100);
   $str1 = 'word1';
   $str2 = 'word2';
   echo '$one = ' . $one . '<br>';
   echo '$two = ' . $two . '<br>';
-  echo '$one + $two = ' . $one + $two . '<br>' . '<hr>';
+  echo '$one + $two = ' . $one . $two . '<br>' . '<hr>';
   echo '$str1 = ' . $str1 . '<br>';
   echo '$str2 = ' . $str2 . '<br>';
   echo '$str1 + $str2 = ' . $str1 . $str2 . '<br>' . '<hr>';
@@ -31,5 +29,5 @@
     default:
       echo 'WTF??!!';
   }
-?>
-
+	echo '<hr>';
+  require_once 'index.html';
